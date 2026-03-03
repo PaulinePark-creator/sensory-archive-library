@@ -1,3 +1,4 @@
+import LibraryMenu from "@/components/LibraryMenu";
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
@@ -35,7 +36,7 @@ export default function RootLayout({
 
       <div className="flex gap-8 text-sm tracking-widest">
         <a href="/">HOME</a>
-        <a href="/library">LIBRARY</a>
+     <LibraryMenu />
         <a href="/post">POST</a>
         <a href="/media">MEDIA</a>
         <a href="/contact">CONTACT</a>
